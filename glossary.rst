@@ -389,7 +389,7 @@ Machine
 
 .. A Linux namespace is a Linux kernel feature that isolates and vitualizes system resources. Processes which restricted to a namespace can only interact with resources or processes that are part of the same namespace. Namespaces are an important part of Docker’s isolation model. Namespaces exist for each type of resource, including net (networking), mnt (storage), pid (processes), uts (hostname control), and user (UID mapping). For more information about namespaces, see Docker run reference and Introduction to user namespaces.
 
-`Linux 名前空間（namespace；ネームスペース） <http://man7.org/linux/man-pages/man7/namespaces.7.html>`_ は  Linux カーネルの分離（isolate）と仮想システム・リソース機能です。名前空間によって制限されたプロセスは、お味名前空間内のリソースやプロセスとしかやりとりできません。名前空間は Docker の分離モデルにおける重要な部分です。名前空間は各リソース・タイプごとに存在しています。リソース・タイプとは ``net`` （ネットワーク機能）、 ``mnt`` （ストレージ）、 ``pid`` （プロセス）、 ``uts`` （ホスト名の制御）、 ``user`` （UID 割り当て）です。名前空間に関する詳しい情報は、 :doc:`Docker run リファレンス </engine/reference/run>` と `ユーザ名前空間入門（英語） <https://success.docker.com/KBase/Introduction_to_User_Namespaces_in_Docker_Engine>`_ をご覧ください。
+`Linux 名前空間（namespace；ネームスペース） <http://man7.org/linux/man-pages/man7/namespaces.7.html>`_ は  Linux カーネルの分離（isolate）と仮想システム・リソース機能です。名前空間によって制限されたプロセスは、同じ名前空間内のリソースやプロセスとしかやりとりできません。名前空間は Docker の分離モデルにおける重要な部分です。名前空間は各リソース・タイプごとに存在しています。リソース・タイプとは ``net`` （ネットワーク機能）、 ``mnt`` （ストレージ）、 ``pid`` （プロセス）、 ``uts`` （ホスト名の制御）、 ``user`` （UID 割り当て）です。名前空間に関する詳しい情報は、 :doc:`Docker run リファレンス </engine/reference/run>` と `ユーザ名前空間入門（英語） <https://success.docker.com/KBase/Introduction_to_User_Namespaces_in_Docker_Engine>`_ をご覧ください。
 
 
 .. _node:
